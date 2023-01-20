@@ -1,0 +1,111 @@
+
+.about {
+    height: 80vh;
+    background-color: #EAF6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+.about-img {
+    width: 350px;
+    flex-basis: 25%;
+    margin-left: 2%;
+}
+
+.about-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-card {
+    flex-basis: 25%;
+    text-align: center;
+    padding: 1%;
+}
+.about-card-img {
+    width: 175px;
+    margin-bottom: 15px;
+}
+.about-card-title {
+    font-family: Pacifico;
+    font-size: 2.75rem;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+    color: #f01932;
+    text-shadow: 0.1px 0.5px #000;
+    margin-bottom: 20px;
+}
+
+.about-card-desc {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color:  #000;
+    opacity: 0.85;
+}
+
+@media (max-width: 992px) {
+    .about {
+        flex-direction: column;
+        height: 90vh;
+    }
+    .about-img {
+        width: 300px;
+    }
+    .about-card-img {
+        width: 145px;
+    }
+    .about-card-title {
+        font-size: 2rem;
+    }
+    .about-card-desc {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column;
+        height: 85vh;
+    }
+    .about-img {
+        width: 250px;
+    }
+    .about-card-img {
+        width: 125px;
+    }
+}
+
+@media (max-width: 576px) {
+    .about {
+        flex-direction: column;
+        height: 100vh;
+        padding: 1%;
+    }
+    .about-img {
+        width: 225px;
+    }
+    .about-info {
+        flex-direction: column;
+    }
+    .about-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-card-img {
+        width: 120px;
+        flex-basis: 28%;
+    }
+    .about-card-title {
+        font-size: 1.5rem;
+        flex-basis: 30%;
+    }
+    .about-card-desc {
+        flex-basis: 38%;
+        margin-left: 2%;
+        font-size: 1rem;
+    }
+}

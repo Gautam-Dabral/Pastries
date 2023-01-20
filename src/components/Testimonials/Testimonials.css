@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.testimonial-carousel {
+    height: 75vh;
+    background-color: #f01932;
+    padding: 3%;
+}
+
+.testimonial-item {
+    text-align: center;
+    margin: 2% auto 2%;
+}
+
+.testimonial-img {
+    width: 150px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+}
+
+.image {
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid #EAF6F6;
+}
+
+.testimonial-info {
+    width: 50%;
+    margin: 2% auto 2%;
+}
+
+.name {
+    color: #fff;
+    opacity: 0.9;
+}
+
+.testimonial-title {
+    font-family: Pacifico;
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #fff;
+    opacity: 0.97;
+    text-shadow: 0.5px 1.5px #000;
+    margin-bottom: 20px;
+}
+
+.testimonial-desc {
+    font-size: 1.25rem;
+    color: #fff;
+    font-weight: 500;
+    opacity: 0.75;
+}
+
+@media (max-width: 992px) {
+    .testimonial-carousel {
+        height: 55vh;
+    }
+    .name {
+        font-size: 1rem;
+    }
+    .testimonial-title {
+        font-size: 2rem;
+    }
+    .testimonial-desc {
+        font-size: 1.15rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .testimonial-carousel {
+        height: 60vh;
+    }
+    .testimonial-img {
+        width: 120px;
+    }
+}
+
+@media (max-width: 576px) {
+    .testimonial-carousel {
+        height: 58vh;
+    }
+    .testimonial-img {
+        width: 80px;
+    }
+    .name {
+        font-size: 1rem;
+    }
+    .testimonial-title {
+        font-size: 1.5rem;
+    }
+    .testimonial-desc {
+        font-size: 1rem;
+    }
+}

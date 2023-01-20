@@ -1,0 +1,27 @@
+/* 
+----Bootstrap breakpoints----
+X-Small	            None   <576px
+Small	            sm	   ≥576px
+Medium	            md	   ≥768px
+Large	            lg	   ≥992px
+Extra large	        xl	   ≥1200px
+Extra extra large	xxl	   ≥1400px 
+*/
+
+/* Google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+/*  */
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.my-carousel {
+    background-color: #f01932;
+    padding: 3%;
+    height: 85vh;
+}
+
+.my-carousel-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-info {
+    flex-basis: 40%;
+    margin-left: 12%;
+}
+.carousel-img {
+    flex-basis: 40%;
+}
+
+.title {
+    font-family: Pacifico, sans-serif;
+    color: white;
+    opacity: 0.98;
+    font-weight: 500;
+    font-size: 3.5rem;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    text-shadow: 0.5px 1.5px #000;
+}
+.desc {
+
+    color: white;
+    font-family: sans-serif;
+    opacity: 0.75;
+    font-size: 1.75rem;
+}
+
+.btn-order {
+    margin-top: 20px;
+    width: 37%;
+    line-height: 1.75;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.btn-order a {
+    text-decoration: none;
+    color: #000;
+}
+.btn-order a:hover {
+    color: #EB1D36;
+    font-size: 1.51rem;
+    transition: 0.5s;
+}
+
+@media (max-width: 992px) {
+    .my-carousel {
+        height: 65vh;
+    }
+    .my-carousel-item {
+        margin-top: 3%;
+    }
+    .carousel-img {
+        width: 300px;
+    }
+    .title {
+        font-size: 3rem;
+    }
+    .desc {
+        font-size: 1.5rem;
+    }
+    .btn-order {
+        width: 52%;
+    }
+}
+
+@media (max-width: 768px) {
+    .my-carousel {
+        height: 55vh;
+    }
+    .my-carousel-item {
+        margin-top: 5%;
+    }
+    .carousel-img {
+        width: 250px;
+    }
+    .title {
+        font-size: 2.5rem;
+    }
+    .desc {
+        font-size: 1.5rem;
+    }
+    .btn-order {
+        width: 75%;
+    }
+}
+
+@media (max-width: 576px) {
+    .my-carousel {
+        height: 77vh;
+    }
+    .my-carousel-item {
+        flex-direction: column;
+        text-align: center;
+    }
+    .carousel-img {
+        width: 200px;
+        order: -1;
+        margin-bottom: 10px;
+    }
+    .carousel-info {
+        margin: 0 10%;
+    }
+    .title {
+        font-size: 2.75rem;
+    }
+    .desc {
+        font-size: 1.5rem;
+    }
+    .btn-order {
+        width: 75%;
+    }
+}

@@ -1,0 +1,116 @@
+
+.order-area {
+    height: 85vh;
+    background-color: #EAF6F6;
+    padding: 2% 0 2%;
+}
+.order-heading {
+    text-align: center;
+    font-family: Pacifico;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #f01932;
+    text-shadow: 0.5px 1px #000;
+}
+.form-heading {
+    text-align: center;
+    color: #0abfbf;
+    text-shadow: 0.5px 1px #000;
+    font-family: Pacifico;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-info {
+    flex-basis: 40%;
+}
+.form-img {
+    text-align: center;
+    flex-basis: 40%;
+    margin-left: 10%;
+}
+.label {
+    color: #0abfbf;
+    text-shadow: 0.2px 0.5px #000;
+    font-family: Pacifico;
+    font-size: 1.25rem;
+}
+
+.btn-submit {
+    background-color: #07c3c3;
+    border: none;
+    font-family: Pacifico;
+    border-radius: 8px;
+    text-shadow: 0.2px 0.5px #000;
+    letter-spacing: 1.5px;
+    width: 30%;
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+
+.btn-submit:hover {
+    background-color: #f01932;
+}
+
+@media (max-width: 992px) {
+    .order-area{
+    height: 75vh;
+    padding: 3%;
+    }
+
+    .form-img {
+        flex-basis: 25%;
+        margin-left: 5%;
+    }
+    .form-info {
+        flex-basis: 40%;
+    }
+    .btn-submit {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .order-area{
+    height: 65vh;
+    padding: 3%;
+    }
+
+    .form {
+        flex-direction: column;
+    }
+
+    .form-image{
+        display: none;
+    }
+    .form-info {
+        flex-basis: 50%;
+        margin-bottom: 25px;
+    }
+
+    .form-heading, .order-heading {
+        font-size: 1.5rem;
+    }
+
+    .btn-submit {
+        width: 50%;
+    }
+}
+
+@media (max-width: 576px) {
+    .form-heading {
+        font-size: 1.25rem;
+    }
+    .label {
+        font-size: 1.2rem;
+    }
+    .btn-submit {
+        font-size: 1.25rem;
+    }
+}
