@@ -86,6 +86,10 @@
         flex-direction: column;
     }
 
+    .form-img {
+        order: -1;
+        margin-bottom: 20px;
+    }
     .form-image{
         display: none;
     }
@@ -104,6 +108,12 @@
 }
 
 @media (max-width: 576px) {
+
+    .order-area {
+        height: 75vh;
+        padding: 5%;
+    }
+
     .form-heading {
         font-size: 1.25rem;
     }

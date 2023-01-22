@@ -96,16 +96,17 @@
         align-items: center;
     }
     .about-card-img {
-        width: 120px;
+        width: 110px;
         flex-basis: 28%;
     }
     .about-card-title {
         font-size: 1.5rem;
-        flex-basis: 30%;
+        flex-basis: 28%;
     }
     .about-card-desc {
-        flex-basis: 38%;
+        flex-basis: 35%;
         margin-left: 2%;
+        margin-right: 2%;
         font-size: 1rem;
     }
 }
